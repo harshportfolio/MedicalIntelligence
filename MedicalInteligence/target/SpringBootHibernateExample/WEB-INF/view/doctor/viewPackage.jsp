@@ -71,19 +71,7 @@ section, header{
 	display: block;
 }
 /* General Demo Style */
-body{
-	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background:url(images/bgnoise_lg.png);
-	font-weight: 400;
-	font-size: 15px;
-	color: #3a2127;
-	overflow-y: scroll;
-}
-a{
-	color: #333;
-	text-decoration: none;
-}
-.container{
+.freshdesignweb-demos .container{
 	width: 100%;
 	height: 100%;
 	position: relative;
@@ -92,7 +80,7 @@ a{
 .clr{
 	clear: both;
 }
-.container > header{
+.freshdesignweb-demos .container > header{
 	/* padding: 20px 30px 20px 30px; */
 	margin: 0px 20px 10px 20px;
 	position: relative;
@@ -100,7 +88,7 @@ a{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     text-align: center;
 }
-.container > header h1{
+.freshdesignweb-demos .container > header h1{
 	position: relative;
 	color: #498ea5;
 	font-weight: 700;
@@ -109,7 +97,7 @@ a{
 	padding: 0px 0px 5px 0px;
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
 }
-.container > header h1 span{
+.freshdesignweb-demos .container > header h1 span{
 	font-family: 'Alegreya SC', Georgia, serif;
 	font-size: 20px;
 	line-height: 20px;
@@ -119,7 +107,7 @@ a{
 	color: #719dab;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
-.container > header h2{
+.freshdesignweb-demos .container > header h2{
 	font-size: 16px;
 	font-style: italic;
 	color: #2d6277;
@@ -215,8 +203,8 @@ a{
       </div>
     </section>
     
-    <!--======= CONATCT =========-->
-    <div class="contact" >
+    <!--======= package =========-->
+    <div class="contact" class="freshdesignweb-demos">
       <div class="container">
         <div class="row">
           <div class="col-md-12" class="center">            

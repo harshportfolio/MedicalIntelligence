@@ -23,7 +23,6 @@ public class XrayController {
 	XrayService xrayService;
 	
 	@RequestMapping(value="/doctor/uploadXray",method=RequestMethod.GET)
-	
 	public ModelAndView uploadXray()
 	{
 		return new ModelAndView("doctor/addXray","xrayVO",new XrayVO());
@@ -34,7 +33,7 @@ public class XrayController {
 	{
 
 		String path = httpSession.getServletContext().getRealPath("/");
-		String xrayFilePath = path +"document//complain//";
+		String xrayFilePath = path +"document//x-ray//";
 		String xrayFileName = file.getOriginalFilename();
 		
 		try {

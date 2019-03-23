@@ -34,7 +34,14 @@ public class MainController {
 		String userName = BaseMethods.getUser();
 		return new ModelAndView("/doctor/index","username",userName);
 	}
+	
+	@RequestMapping(value = "/doctor/viewDetection", method = RequestMethod.GET)
+	public ModelAndView viewDetetion() 
+	{
+		return new ModelAndView("/doctor/viewDetection");
+	}
 
+	
 	@RequestMapping(value = "/logout", method = {RequestMethod.POST, RequestMethod.GET})	
 	public String viewUserDetails(ModelMap model,HttpServletResponse response,HttpServletRequest request) {
 		  Authentication auth = SecurityContextHolder.getContext().getAuthentication();

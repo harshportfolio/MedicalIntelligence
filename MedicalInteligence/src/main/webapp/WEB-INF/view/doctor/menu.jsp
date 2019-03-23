@@ -4,65 +4,68 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>MI</title>
 </head>
 <body>
 <header> 
     <div class="container">
     <!--======= LOGO =========-->
-    <div class="logo"> <a href="index.html"><img src="<%=request.getContextPath()%>/doctorResources/image/logo.png" alt="" ></a> </div>
+    <div class="logo"> <a href="index"><img src="<%=request.getContextPath()%>/doctorResources/image/logo.png" alt="MI" ></a> </div>
     
     <!--======= NAVIGATION =========-->
       <nav class="webimenu"> 
         <!-- MENU BUTTON RESPONSIVE -->
         <div class="menu-toggle"> <i class="fa fa-bars"> </i> </div>
         <ul class="ownmenu">
-          <li class="active"><a href="index.html">Home</a>
-            <ul class="dropdown animated-3s fadeIn">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="index-1.html">Home Slider</a></li>
-              <li><a href="index-2.html">Home 2</a></li>
-              <li><a href="index-header.html">header 1</a></li>
-            </ul>
-          </li>
+          <li class=""><a href="index">Home</a></li>
         <!--   <li><a href="02-about-us.html">About us </a>
             <ul class="dropdown animated-3s fadeIn">
-              <li><a href="02-about-us.html">About</a></li>
-              <li><a href="02-about-us-1.html">About 2</a></li>
-            </ul>
+              </ul>
           </li> -->
           
           
          <!--  
           <li><a href="index.html">Pages</a>  -->
           <li><a href="viewPackage">Package</a></li> 
-            <li><a href="uploadXray">Upload X-Ray</a> </li>
-            
-             <li><a href="uploadXray">Report</a> </li>
-            
-          <li><a href="services.html">COMPLAINT </a>
+          <li><a href="">Knee X-Ray</a> 
+          	<ul class="dropdown animated-3s fadeIn">
+          		<li><a href="uploadXray">Upload X-Ray</a> </li>
+            	<li><a href="viewDetection">View Detection</a> </li>
+            	<li><a href="uploadXray">Report</a> </li>
+            </ul>
+          </li>  
+          
+          <li><a href="">Complaint</a>
             <ul class="dropdown animated-3s fadeIn">
-            <li><a href="addComplain">Post Complaint</a> </li>
-          <li><a href="seeComplain">View Reply</a> </li>
+            	<li><a href="addComplain">Post Complaint</a> </li>
+            	<li><a href="seeComplain">View Reply</a> </li>
             </ul>
           </li>
         
-        <li><a href="services.html">FEEDBACK </a>
+        <li><a href="">Feedback</a>
             <ul class="dropdown animated-3s fadeIn">
             <li><a href="addFeedback">Post Feedback</a> </li>
           <li><a href="viewFeedback">View Feedback</a> </li>
             </ul>
           </li>
           
-          <li><a href="#">MANAGE PROFILE</a>
+          <li><a href="">Manage Profile</a>
             <ul class="dropdown animated-3s fadeIn">
             <li><a href="addFeedback">Edit Profile</a> </li>
           <li><a href="changePassword">Change Password</a> </li>
             </ul>
           </li>  
 
+          <li><a href="/logout" class="deactive">Logout</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+</body>
+</html>
           
-            <!--======= MEGA MENU =========-->
+            <!--======= MEGA MENU =========
             <ul class="megamenu full-width animated-3s fadeIn">
               <li class="row nav-post">
                 <div class="col-sm-6 boder-da-r">
@@ -97,14 +100,4 @@
                 </div>
               </li>
             </ul>
-          </li>
-          
-         
-          <li><a href="/logout">Logout</a> </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-</body>
-</html>
+          </li>-->

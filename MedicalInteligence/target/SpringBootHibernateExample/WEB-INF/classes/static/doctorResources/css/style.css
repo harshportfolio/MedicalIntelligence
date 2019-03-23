@@ -4628,5 +4628,57 @@ footer .timing p span {
 	}	
 	
 	
+					table.cyanTable {
+					  border: 2px solid #3DC5DF;
+					  background-color: #FFFFFF;
+					  width: 60%;
+					  text-align: center;
+					  border-collapse: collapse;
+					  margin: 5% 20% 5% 20%;
+					}
+					table.cyanTable td, table.cyanTable th {
+					  border: 1px solid #AAAAAA;
+					  padding: 3px 2px;
+					}
+					table.cyanTable tbody td {
+					  font-size: 13px;
+					}
+					table.cyanTable tr:nth-child(even) {
+					  background: #D0E4F5;
+					}
+					table.cyanTable thead {
+					  background: #3DC5DF;
+					}
+					table.cyanTable thead th {
+					  font-size: 19px;
+					  font-weight: bold;
+					  color: #FFFFFF;
+					  text-align: center;
+					  padding: 5px 10px 5px 10px;
+					  border-left: 2px solid #3DC5DF;
+					}
+					table.cyanTable thead th:first-child {
+					  border-left: none;
+					}
+
+					table.cyanTable tfoot {
+					  font-size: 13px;
+					  font-weight: bold;
+					  color: #FFFFFF;
+					  background: #3DC5DF;
+					}
+					table.cyanTable tfoot td {
+					  font-size: 13px;
+					}
+					table.cyanTable tfoot .links {
+					  text-align: right;
+					}
+					table.cyanTable tfoot .links a{
+					  display: inline-block;
+					  background: #FFFFFF;
+					  color: #3DC5DF;
+					  padding: 2px 8px;
+					  border-radius: 5px;
+					}
 	
 	/* end --------------- */

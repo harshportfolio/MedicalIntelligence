@@ -32,16 +32,15 @@
     
 <![endif]-->
 
-
-<style>	   <!-- Add this css code in style.css of doctor resources directory. & Link the stylesheet in every JSP <head> section.-->	
+<!-- 
+<style>	   
 					table.cyanTable {
 					  border: 2px solid #3DC5DF;
 					  background-color: #FFFFFF;
-					  width: 100%;
+					  width: 60%;
 					  text-align: center;
 					  border-collapse: collapse;
 					  margin: 5% 20% 5% 20%;
-					  padding: 5px 10px 5px 10px;
 					}
 					table.cyanTable td, table.cyanTable th {
 					  border: 1px solid #AAAAAA;
@@ -88,7 +87,7 @@
 					  border-radius: 5px;
 					}
 				
-</style>
+</style> -->
 
 </head>
 <body>
@@ -122,7 +121,7 @@
       </div>
     </section>
 				
-				<table class="cyanTable">		 <!-- Add this table part in div of all required pages in doctor module.-->	
+				<table class="cyanTable">	
 					<thead>
 					<tr>
 					<th>Date</th>
@@ -135,7 +134,7 @@
 					<tfoot>
 					<tr>
 					<td colspan="5">
-					<div class="links"><a href="">&laquo;</a> <a class="active" href="">1</a> <a href="">2</a> <a href="">3</a> <a href="">4</a> <a href="">&raquo;</a></div>
+					<!-- <div class="links"><a href="">&laquo;</a> <a class="active" href="">1</a> <a href="">2</a> <a href="">3</a> <a href="">4</a> <a href="">&raquo;</a></div> -->
 					</td>
 					</tr>
 					</tfoot>
@@ -150,7 +149,6 @@
 					</tr>
 					</f:forEach>
 					</tbody>
-					</tr>
 					</table>
            
         <!--======= GOOGLE MAP =========-->

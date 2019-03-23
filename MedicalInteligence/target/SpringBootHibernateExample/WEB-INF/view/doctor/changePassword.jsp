@@ -32,6 +32,38 @@
 
 </head>
 <body>
+<script type="text/javascript">
+
+function resetDiv(){
+	var errorMessage = document.getElementById('errorMessage');
+	errorMessage.style.display="none";
+}
+
+function checkPwd() {
+	
+	
+	var newPassword = document.getElementById('newPassword');
+	var confirmPassword = document.getElementById('confirmPassword');
+	var errorMessage = document.getElementById('errorMessage');
+
+	errorMessage.style.display="none";
+	
+	console.log( " ******************** " + newPassword.value);
+	console.log( " ******************** " + confirmPassword.value);
+
+	console.log(newPassword.value == confirmPassword.value);
+	
+	if(newPassword.value == confirmPassword.value){
+		return true;
+	}else{
+		confirmPassword.value = '';
+		errorMessage.style.display="";
+		errorMessage.style.color="red";
+	}
+
+}
+
+</script>
 
 <!-- Page Wrap ===========================================-->
 <div id="wrap"> 

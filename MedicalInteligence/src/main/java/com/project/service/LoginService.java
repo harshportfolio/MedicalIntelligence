@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.project.DAO.LoginDAO;
+import com.project.model.LoginVO;
 
 @Service
 public class LoginService {
@@ -17,8 +18,14 @@ public class LoginService {
 	@Transactional
 	public List searchLogin(String userName)
 	{
-		List ls=loginDAO.searchLogin(userName);
+		List ls=this.loginDAO.searchLogin(userName);
 		return ls;
+	}
+
+	@Transactional
+	public void insertLogin(LoginVO loginVO) {
+		
+		this.loginDAO.insertLogin(loginVO);
 	}
 	
 	

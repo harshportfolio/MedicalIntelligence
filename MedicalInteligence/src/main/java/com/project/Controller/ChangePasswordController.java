@@ -24,12 +24,12 @@ public class ChangePasswordController {
 		return new ModelAndView("/doctor/changePassword");
 	}
 
-	/*@RequestMapping(value="/user/changePasswordVerify",method=RequestMethod.POST)
+	@RequestMapping(value="/user/changePasswordVerify",method=RequestMethod.POST)
 	public ModelAndView changePasswordVerify(@RequestParam String oldPassword,@RequestParam String newPassword){
 		
-		String userName = Basemethods.getUser();
+		String userName = BaseMethods.getUser();
 		
-		List loginList = loginService.searchLoginID(userName);
+		List loginList = loginService.searchLogin(userName);
 		
 		LoginVO loginVO = (LoginVO) loginList.get(0);
 		
@@ -44,6 +44,6 @@ public class ChangePasswordController {
 		
 	}
 
-	*/
+	
 
 }
