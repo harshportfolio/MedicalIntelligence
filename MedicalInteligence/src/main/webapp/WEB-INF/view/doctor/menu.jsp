@@ -31,7 +31,7 @@
           	<ul class="dropdown animated-3s fadeIn">
           		<li><a href="uploadXray">Upload X-Ray</a> </li>
             	<li><a href="viewDetection">View Detection</a> </li>
-            	<li><a href="uploadXray">Report</a> </li>
+            	<li><a href="viewReport">Report</a> </li>
             </ul>
           </li>  
           

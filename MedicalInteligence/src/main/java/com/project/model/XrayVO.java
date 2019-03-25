@@ -22,7 +22,6 @@ public class XrayVO {
 	@Column(name="age")
 	private String age;
 	
-	
 	public int getXrayId() {
 		return xrayId;
 	}

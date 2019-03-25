@@ -1,3 +1,4 @@
+<%@page import="com.project.utils.BaseMethods"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -14,6 +15,10 @@ function fn1()
 	path = imageName.value.replace("C:\\fakepath\\","");
 	
 	var htp=new XMLHttpRequest();
+
+	var userName = '<%=BaseMethods.getUser()%>';
+	
+	console.log(userName);
 	
 	htp.onreadystatechange=function(){
 	
@@ -23,7 +28,7 @@ function fn1()
 			alert(htp.responseText);
 		}
 	}
-htp.open("get","http://127.0.0.1:5000/?imageName="+path,true);
+htp.open("get","http://127.0.0.1:5000/?imageName="+path+"&userName="+userName,true);
 htp.send();
 }
 
