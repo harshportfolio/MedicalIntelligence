@@ -113,7 +113,7 @@ public class ComplainController {
 	}
 
 	@RequestMapping(value="doctor/seeComplain",method=RequestMethod.GET)
-	public ModelAndView seeComplaint(@ModelAttribute ComplainVO complainVO) {
+	public ModelAndView seeComplaint(@ModelAttribute ComplainVO complainVO,LoginVO loginVO ) {
 		
 		
 		String userName = BaseMethods.getUser();
@@ -122,9 +122,9 @@ public class ComplainController {
     	
     	System.out.println(userName);
 		
-		LoginVO loginVO2 = (LoginVO) loginList.get(0);
+		loginVO = (LoginVO) loginList.get(0);
 		
-		complainVO.setLoginVO(loginVO2);
+		complainVO.setLoginVO(loginVO);
 		
 		List complaintList = this.complainService.seeComplain(complainVO);
 		

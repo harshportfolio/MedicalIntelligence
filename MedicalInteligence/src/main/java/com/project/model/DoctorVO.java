@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -21,15 +22,6 @@ public class DoctorVO {
 	
 	@Column(name="lastName")
 	private String lastName;
-	
-	@Column(name="email")
-	private String email;
-	
-	@Column(name="password")
-	private String password;
-	
-	@Column(name="confirmPassword")
-	private String confirmPassword;
 	
 	@Column(name="gender")
 	private String gender;
@@ -49,8 +41,8 @@ public class DoctorVO {
 	@Column(name="residentialAddress")
 	private String residentialAddress;
 	
+	@ManyToOne LoginVO loginVO;
 
-	
 	public int getDoctorId() {
 		return doctorId;
 	}
@@ -73,30 +65,6 @@ public class DoctorVO {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public String getConfirmPassword() {
-		return confirmPassword;
-	}
-
-	public void setConfirmPassword(String confirmPassword) {
-		this.confirmPassword = confirmPassword;
 	}
 
 	public String getGender() {
@@ -146,6 +114,15 @@ public class DoctorVO {
 	public void setResidentialAddress(String residentialAddress) {
 		this.residentialAddress = residentialAddress;
 	}
+
+	public LoginVO getLoginVO() {
+		return loginVO;
+	}
+
+	public void setLoginVO(LoginVO loginVO) {
+		this.loginVO = loginVO;
+	}
+
 
 	
 }

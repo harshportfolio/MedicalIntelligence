@@ -6,10 +6,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Medikal - Health Care &amp; Medical HTML5 Template</title>
+<title>Medical &amp; Intelligence</title>
 <meta name="keywords" content="HTML5,CSS3,HTML,Template,Multi-Purpose,M_Adnan,Corporate Theme,Medikal,Health Care,Medikal - Health Care & Medical HTML5 Template">
-<meta name="description" content="Medikal - Health Care & Medical HTML5 Template">
-<meta name="author" content="M_Adnan">
+<meta name="description" content="Medical Intelligence">
+<meta name="author" content="MI">
 
 <!-- FONTS ONLINE -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300' rel='stylesheet' type='text/css'>
@@ -111,7 +111,7 @@ function checkPwd() {
               
               <!--======= COMPLAIN  =========-->
               <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Complain has been Submitted</div>
-            <form action="changePassword" method="post"></form>
+            <form action="changePasswordVerify" method="post"></form>
              
               <ul class="row">
                 <li class="col-sm-12">
@@ -121,7 +121,7 @@ function checkPwd() {
                 </li>
                 <li class="col-sm-12">
                   <label>New Password 
-                    <input type="text" class="form-control" name="newPassword"  placeholder=""/>
+                    <input type="text" class="form-control" name="newPassword"  placeholder="" onblur="checkPwd()"/>
                   </label>
                 </li>
               
@@ -132,7 +132,7 @@ function checkPwd() {
                 </li>
                 
                 <li class="col-sm-12">
-                  <button type="submit" value="submit" class="btn" id="btn_submit">Submit</button>
+                  <button type="submit" value="submit">Submit</button>
                 </li>
               </ul>
             </form>
@@ -147,44 +147,7 @@ function checkPwd() {
     
     
         <!--======= GOOGLE MAP =========-->
-        
-    
-    <!--======= Contact Info =========-->
-    <section class="contact-info">
-      <div class="container"> 
-        
-        <!--Address-->
-        <ul class="row">
-          <li class="col-md-3"> <i class="ion-ios-location-outline"></i>
-            <h5>Address</h5>
-            <p>1800 Abbot Kinney Blvd. Unit D & E
-              Venice, CA 90291</p>
-          </li>
-          
-          <!-- Hot line -->
-          <li class="col-md-3"> <i class="ion-iphone"></i>
-            <h5>Hotline</h5>
-            <p>+00-0122-123-0089</p>
-          </li>
-          
-          <!--Email Contact-->
-          <li class="col-md-3"> <i class="ion-ios-email-outline"></i>
-            <h5>Email contact</h5>
-            <p>medikal@gmail.com</p>
-            <p> contact@medikalclinic.com</p>
-          </li>
-          
-          <!--Website-->
-          <li class="col-md-3"> <i class="ion-earth"></i>
-            <h5>Website</h5>
-            <p>www.medikalclinic.com </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </div>
-  
-  <!--======= FOOTER =========-->
+        <!--======= FOOTER =========-->
   <jsp:include page="footer.jsp"></jsp:include>
   
 </div>

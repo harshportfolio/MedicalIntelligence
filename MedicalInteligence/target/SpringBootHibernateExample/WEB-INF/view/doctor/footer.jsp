@@ -4,9 +4,38 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Medical Intelligence</title>
 </head>
 <body>
+    
+   <!--======= Contact Info =========-->
+    <section class="contact-info">
+      <div class="container"> 
+        <ul class="row">
+          <li class="col-md-3"> <i class="ion-ios-location-outline"></i>
+            <h5>Address</h5>
+            <p>INDIA</p>
+          </li>
+          
+          <li class="col-md-3"> <i class="ion-iphone"></i>
+            <h5>Hotline</h5>
+            <p>+91-7046993361</p>
+          </li>
+          
+          <li class="col-md-3"> <i class="ion-ios-email-outline"></i>
+            <h5>Email contact</h5>
+            <p>medicalintelligence@gmail.com</p>
+          </li>
+          
+          <li class="col-md-3"> <i class="ion-earth"></i>
+            <h5>Website</h5>
+            <p>https://medicalintelligence.github.io </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div> 
+  
 <footer>
     <div class="container"> 
       <!-- Row -->
@@ -20,18 +49,18 @@
               
               <!--Tweet 1 -->
               <li>
-                <p><span>@medikal</span> Sweets and Bakers 
+                <p><span>@medicalintelligence</span> Sweets and Bakers 
                   WordPress Theme' on @EnvatoMarket by themefore<a href="#."> http://t.co/we8Kf0</a></p>
                 <span class="date"> - Thursday April 9, 2015</span> </li>
               
               <!--Tweet 2 -->
               <li>
-                <p><span>@medikal</span> In hendrerit in molestie consequat in <a href="#."> http://t.co/we8Kf0</a></p>
+                <p><span>@medicalintelligence</span> In hendrerit in molestie consequat in <a href="#."> http://t.co/we8Kf0</a></p>
                 <span class="date"> - Thursday April 9, 2015</span> </li>
               
               <!--Tweet 3 -->
               <li>
-                <p><span>@medikal</span> Duis autem vel eum iriure <span>@medikal</span> dolor in hendrerit in molestie consequat <a href="#."> http://t.co/we8Kf0</a></p>
+                <p><span>@medicalintelligence</span> Duis autem vel eum iriure <span>@medikal</span> dolor in hendrerit in molestie consequat <a href="#."> http://t.co/we8Kf0</a></p>
                 <span class="date"> - Thursday April 9, 2015</span> </li>
             </ul>
           </div>
@@ -48,7 +77,7 @@
             </ul>
             
             <!-- News Letter -->
-            <h5>register newsletter</h5>
+            <h5>Register Newsletter</h5>
             <form>
               <input type="email" placeholder="Enter your email here" required>
               <button type="submit"> Subscribe</button>
@@ -56,24 +85,14 @@
           </div>
         </div>
         
-        <!-- Patient Guide -->
+        <!-- Contact Us -->
         <div class="col-md-3">
           <div class="links text-right">
-            <h5>Patient Guide</h5>
+            <h5>Contact Us</h5>
             <ul>
-              <li><a href="#."> Choosing a doctor</a></li>
-              <li><a href="#."> Health journals</a></li>
-              <li><a href="#."> Insurance converage</a></li>
-              <li><a href="#."> Talking to your doctor</a></li>
-              <li><a href="#."> Medikal error</a></li>
+              <li><p><span>+91-7046993361</span></p></li>
+              <li><p><span>+91-7096223739</span></p></li>
             </ul>
-            
-            <!-- Timing -->
-            <div class="timing">
-              <h5>opening hours</h5>
-              <p>Mon to Fri <span> 8:00 am to 7:00pm</span></p>
-              <p>Sun & Sat <span>9:00 am to 5:00pm</span></p>
-            </div>
           </div>
         </div>
       </div>
@@ -81,7 +100,7 @@
     
     <!-- Rights -->
     <div class="rights">
-      <p>© 2015 Medikal. Made with by M_Adnan </p>
+      <p>© 2019 <a href="https://harshportfolio.github.io/">Medical Intelligence</a></p>
     </div>
   </footer>
 

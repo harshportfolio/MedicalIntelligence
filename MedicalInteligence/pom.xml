@@ -24,6 +24,13 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		
+		<dependency>
+		    <groupId>javax.mail</groupId>
+    		<artifactId>mail</artifactId>
+    		<version>1.4</version>
+	</dependency>
+	
 		<!-- JSTL for JSP -->
 		<dependency>
 			<groupId>javax.servlet</groupId>

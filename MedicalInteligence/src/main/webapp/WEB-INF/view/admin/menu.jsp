@@ -2,7 +2,7 @@
             <li class="nav-item nav-profile">
               <div class="nav-link">
                 <div class="profile-image">
-                  <img src="<%=request.getContextPath()%>/adminResources/image/face10.jpg" alt="image"/>
+                  <img src="<%=request.getContextPath()%>/adminResources/image/admin.png" alt="image"/>
                   <span class="online-status online"></span> <!--change class online to offline or busy as needed-->
                 </div>
                 <div class="profile-name">
@@ -16,7 +16,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.jsp">
+              <a class="nav-link" href="index">
                 <i class="icon-rocket menu-icon"></i>
                 <span class="menu-title">Dashboard</span>
          
@@ -64,7 +64,7 @@
                 </ul>
                 </div>
             </li>
-            <li class="nav-item">
+           <!--  <li class="nav-item">
               <a class="nav-link" data-toggle="collapse" href="#ui-report" aria-expanded="false" aria-controls="ui-report">
                 <i class="icon-cup menu-icon"></i>
                 <span class="menu-title">Manage Report</span>
@@ -74,7 +74,7 @@
                   <li class="nav-item"> <a class="nav-link" href="viewReport">View Report</a></li>
                 </ul>
               </div>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" data-toggle="collapse" href="#form-complaint" aria-expanded="false" aria-controls="form-complaint">
                 <i class="icon-flag menu-icon"></i>

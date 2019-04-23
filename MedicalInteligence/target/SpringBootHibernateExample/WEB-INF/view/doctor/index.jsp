@@ -6,10 +6,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Medikal - Health Care &amp; Medical HTML5 Template</title>
+<title>Medical Intelligence</title>
 <meta name="keywords" content="HTML5,CSS3,HTML,Template,Multi-Purpose,M_Adnan,Corporate Theme,Medikal,Health Care,Medikal - Health Care & Medical HTML5 Template">
-<meta name="description" content="Medikal - Health Care & Medical HTML5 Template">
-<meta name="author" content="M_Adnan">
+<meta name="description" content="Medical Intelligence">
+<meta name="author" content="MI">
 
 <!-- FONTS ONLINE -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300' rel='stylesheet' type='text/css'>
@@ -36,12 +36,12 @@
 <!-- Page Wrap ===========================================-->
 <div id="wrap"> 
   
-  <!-- TOP BAR ===========================================-->
+  <!-- TOP BAR ===========================================
   <div class="top-bar light">
     
     <jsp:include page="header.jsp"></jsp:include>
     
-  </div>
+  </div>-->
   <!-- HEADER ===========================================-->
   <jsp:include page="menu.jsp"></jsp:include>
   
@@ -53,11 +53,11 @@
       <div class="overlay">
         <div class="container">
           <h3>Doctors</h3>
-          <p>Meet our team of highly skilled professionals</p>
+          <p>Join Us for Health Care Automation</p>
 
           <!--======= Breadcrumbs =========-->
           <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
+            <li><a href="index">Home</a></li>
             <li class="active">DOCTOR</li>
           </ol>
         </div>
@@ -74,9 +74,10 @@
             <div class="tittle">
               <h2>Our Founders</h2>
             </div>
-            <p>Claritas est etiam processus dynamicus,  lectorum. Mirum est notare quam est notare quam littera. Eodem modo typi, qui nunc nobis clari.</p>
+            
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut laoreet.</p>
+            <p>I treasure my client's value with a user-friendly interface. I am continually improving the effectiveness of quality through teamwork, better tools, and better technology.
+To become a prime performer, in providing quality software and to enhance the business growth of customers with creative Design and Development that gives a competitive advantage to our clients around the world.</p>
           </div>
           
           <!--======= founder sliders =========-->
@@ -85,26 +86,26 @@
               
               <!-- Slider 1 -->
               <div class="slide"> <img class="img-responsive" src="<%=request.getContextPath()%>/doctorResources/image/founder-1.jpg" alt="">
-                <h4>Dr. Forest Aalderink</h4>
-                <p>Clinic president</p>
+                <h4>Harsh Bhavsar</h4>
+                <p>Software Developer</p>
               </div>
               
               <!-- Slider 2 -->
               <div class="slide"> <img class="img-responsive" src="<%=request.getContextPath()%>/doctorResources/image/founder-2.jpg" alt="">
-                <h4>Dr. Bryce Butler</h4>
-                <p>Clinic president</p>
+                <h4>Chirag Panchal</h4>
+                <p>Software Developer</p>
               </div>
               
               <!-- Slider 3 -->
               <div class="slide"> <img class="img-responsive" src="<%=request.getContextPath()%>/doctorResources/image/founder-1.jpg" alt="">
-                <h4>Dr. Bryce Butler</h4>
-                <p>Clinic president</p>
+               <h4>Harsh Bhavsar</h4>
+                <p>Software Developer</p>
               </div>
               
               <!-- Slider 4 -->
               <div class="slide"> <img class="img-responsive" src="<%=request.getContextPath()%>/doctorResources/image/founder-2.jpg" alt="">
-                <h4>Dr. Bryce Butler</h4>
-                <p>Clinic president</p>
+                <h4>Chirag Panchal</h4>
+                <p>Software Developer</p>
               </div>
             </div>
           </div>
@@ -315,120 +316,9 @@
         </div>
       </div>
     </div>
-    
-    <!--======= Contact Info =========-->
-    <section class="contact-info">
-      <div class="container"> 
-        
-        <!--Address-->
-        <ul class="row">
-          <li class="col-md-3"> <i class="ion-ios-location-outline"></i>
-            <h5>Address</h5>
-            <p>1800 Abbot Kinney Blvd. Unit D & E
-              Venice, CA 90291</p>
-          </li>
-          
-          <!-- Hot line -->
-          <li class="col-md-3"> <i class="ion-iphone"></i>
-            <h5>Hotline</h5>
-            <p>+00-0122-123-0089</p>
-          </li>
-          
-          <!--Email Contact-->
-          <li class="col-md-3"> <i class="ion-ios-email-outline"></i>
-            <h5>Email contact</h5>
-            <p>medikal@gmail.com</p>
-            <p> contact@medikalclinic.com</p>
-          </li>
-          
-          <!--Website-->
-          <li class="col-md-3"> <i class="ion-earth"></i>
-            <h5>Website</h5>
-            <p>www.medikalclinic.com </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </div>
-  
+
   <!--======= FOOTER =========-->
-  <footer>
-    <div class="container"> 
-      <!-- Row -->
-      <div class="row"> 
-        
-        <!-- Latest Tweet -->
-        <div class="col-md-3">
-          <div class="latest-tweet">
-            <h5>Latest tweets</h5>
-            <ul>
-              
-              <!--Tweet 1 -->
-              <li>
-                <p><span>@medikal</span> Sweets and Bakers 
-                  WordPress Theme' on @EnvatoMarket by themefore<a href="#."> http://t.co/we8Kf0</a></p>
-                <span class="date"> - Thursday April 9, 2015</span> </li>
-              
-              <!--Tweet 2 -->
-              <li>
-                <p><span>@medikal</span> In hendrerit in molestie consequat in <a href="#."> http://t.co/we8Kf0</a></p>
-                <span class="date"> - Thursday April 9, 2015</span> </li>
-              
-              <!--Tweet 3 -->
-              <li>
-                <p><span>@medikal</span> Duis autem vel eum iriure <span>@medikal</span> dolor in hendrerit in molestie consequat <a href="#."> http://t.co/we8Kf0</a></p>
-                <span class="date"> - Thursday April 9, 2015</span> </li>
-            </ul>
-          </div>
-        </div>
-        
-        <!-- About Us -->
-        <div class="col-md-6">
-          <div class="small-info"> <img src="<%=request.getContextPath()%>/doctorResources/image/logo-white.png" alt="">
-            <p>We work in a friendly and efficient using the latest technologies and sharing our expertise to make a diagnosis and implement cutting-edge therapies.</p>
-            <ul class="social_icons">
-              <li class="facebook"><a href="#."><i class="fa fa-facebook"></i> </a></li>
-              <li class="twitter"><a href="#."><i class="fa fa-twitter"></i> </a></li>
-              <li class="linkedin"><a href="#."><i class="fa fa-linkedin"></i> </a></li>
-            </ul>
-            
-            <!-- News Letter -->
-            <h5>register newsletter</h5>
-            <form>
-              <input type="email" placeholder="Enter your email here" required>
-              <button type="submit"> Subscribe</button>
-            </form>
-          </div>
-        </div>
-        
-        <!-- Patient Guide -->
-        <div class="col-md-3">
-          <div class="links text-right">
-            <h5>Patient Guide</h5>
-            <ul>
-              <li><a href="#."> Choosing a doctor</a></li>
-              <li><a href="#."> Health journals</a></li>
-              <li><a href="#."> Insurance converage</a></li>
-              <li><a href="#."> Talking to your doctor</a></li>
-              <li><a href="#."> Medikal error</a></li>
-            </ul>
-            
-            <!-- Timing -->
-            <div class="timing">
-              <h5>opening hours</h5>
-              <p>Mon to Fri <span> 8:00 am to 7:00pm</span></p>
-              <p>Sun & Sat <span>9:00 am to 5:00pm</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Rights -->
-    <div class="rights">
-      <p>© 2015 Medikal. Made with by M_Adnan </p>
-    </div>
-  </footer>
+   <jsp:include page="footer.jsp"></jsp:include>
 </div>
 <!-- Wrap End --> 
 <script src="<%=request.getContextPath()%>/doctorResources/js/jquery-1.11.0.min.js"></script> 

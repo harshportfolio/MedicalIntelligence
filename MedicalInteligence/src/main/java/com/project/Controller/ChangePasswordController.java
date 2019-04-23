@@ -24,7 +24,7 @@ public class ChangePasswordController {
 		return new ModelAndView("/doctor/changePassword");
 	}
 
-	@RequestMapping(value="/user/changePasswordVerify",method=RequestMethod.POST)
+	@RequestMapping(value="/doctor/changePasswordVerify",method=RequestMethod.POST)
 	public ModelAndView changePasswordVerify(@RequestParam String oldPassword,@RequestParam String newPassword){
 		
 		String userName = BaseMethods.getUser();

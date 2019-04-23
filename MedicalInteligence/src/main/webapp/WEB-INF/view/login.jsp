@@ -62,7 +62,7 @@
 				<div align="center">
 					<input type="submit" class="button" value="Login">
 					</form>
-					<a href="#" class="btn">Forget Password</a>
+					<a href="step1" class="btn">Forgot Password</a>
 			<br><br>
 		  <a href="addDoctor" class="button" class="padding:0 px 10px 0px 10px">New User Registration</a>	</label>
 			</div>

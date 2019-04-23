@@ -28,6 +28,24 @@ public class LoginService {
 		this.loginDAO.insertLogin(loginVO);
 	}
 	
+	@Transactional
+	public List searchstep1(LoginVO loginVO)
+	{
+		List ls = this.loginDAO.searchstep1(loginVO);
+		return ls;
+	}
 	
+	@Transactional
+	public void updatePassword(LoginVO loginVO)
+	{
+		this.loginDAO.updatePassword(loginVO);
+	}
+	
+
+	@Transactional
+	public void updateLogin(LoginVO loginVO)
+	{
+		this.loginDAO.updateLogin(loginVO);
+	}
 
 }

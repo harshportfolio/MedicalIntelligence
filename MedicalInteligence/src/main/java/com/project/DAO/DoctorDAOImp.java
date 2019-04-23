@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.project.model.DoctorVO;
+import com.project.model.LoginVO;
 
 @Repository
 public class DoctorDAOImp implements DoctorDAO {
@@ -26,10 +27,25 @@ public class DoctorDAOImp implements DoctorDAO {
 		{
 			List doctorList=new ArrayList();
 			Session session =this.sessionFactory.getCurrentSession();
-			Query q=session.createQuery("from DoctorVO ");
+			Query q=session.createQuery("from DoctorVO");
 			doctorList=q.list();
 			return doctorList;
 			
+		}
+		
+		public List editDoctor(DoctorVO doctorVO)
+		{
+			List doctorList=new ArrayList();
+			Session session =this.sessionFactory.getCurrentSession();
+			Query q=session.createQuery("from DoctorVO where loginVO.username= '"+doctorVO.getLoginVO().getUsername()+"'");
+			doctorList=q.list();
+			return doctorList;
+		}
+			
+		public void updateDoctor(DoctorVO doctorVO)
+		{
+			Session session=this.sessionFactory.getCurrentSession();
+			session.update(doctorVO);
 		}
 		
 		

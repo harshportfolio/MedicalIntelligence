@@ -10,7 +10,7 @@
 <header> 
     <div class="container">
     <!--======= LOGO =========-->
-    <div class="logo"> <a href="index"><img src="<%=request.getContextPath()%>/doctorResources/image/logo.png" alt="MI" ></a> </div>
+    <div class="logo"> <a href="index"><img src="<%=request.getContextPath()%>/doctorResources/image/logo.png" alt="MI"></a> </div>
     
     <!--======= NAVIGATION =========-->
       <nav class="webimenu"> 
@@ -51,7 +51,7 @@
           
           <li><a href="">Manage Profile</a>
             <ul class="dropdown animated-3s fadeIn">
-            <li><a href="addFeedback">Edit Profile</a> </li>
+            <li><a href="editDoctor">Edit Profile</a> </li>
           <li><a href="changePassword">Change Password</a> </li>
             </ul>
           </li>  

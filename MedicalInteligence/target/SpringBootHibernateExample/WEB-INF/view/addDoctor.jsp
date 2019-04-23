@@ -25,10 +25,9 @@
 
 <body>
   <div class="container-scroller">
-   
         <div class="content-wrapper">
           <div class="row grid-margin">
-            <div class="col-lg-12">
+            <div class="col-lg-8">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Doctor Registration</h4>
@@ -44,15 +43,11 @@
                       </div>
                       <div class="form-group">
                         <label for="email">Email <sup><span style="color: red;">*</span></sup></label>
-                        <f:input id="email" path="email" class="form-control"  type="email" required="required"/>
+                        <f:input id="email" path="loginVO.username" class="form-control"  type="email" required="required"/>
                       </div>
                       <div class="form-group">
                         <label for="password">Password <sup><span style="color: red;">*</span></sup></label>
-                        <f:password id="password" path="password" class="form-control" required="required"/>
-                      </div>
-                      <div class="form-group">
-                        <label for="confirm_password">Confirm password <sup><span style="color: red;">*</span></sup></label>
-                        <f:password path="confirmPassword" id="confirm_password" class="form-control" required="required" />
+                        <f:password id="password" path="loginVO.password" class="form-control" required="required"/>
                       </div>
                       
                       <div class="form-group">
@@ -122,5 +117,4 @@
   <script src="adminResources/js/bt-maxLength.js"></script>
   <!-- End custom js for this page-->
 </body>
-
 </html>

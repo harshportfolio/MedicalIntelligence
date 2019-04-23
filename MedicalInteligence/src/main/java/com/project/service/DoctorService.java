@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.project.DAO.DoctorDAO;
 import com.project.model.DoctorVO;
+import com.project.model.LoginVO;
 
 @Service
 public class DoctorService {
@@ -25,6 +26,19 @@ public class DoctorService {
 	{
 		List doctorList=this.doctorDAO.viewDoctor();
 		return doctorList;
+	}
+
+	@Transactional
+	public List editDoctor(DoctorVO doctorVO) 
+	{
+		List ls=this.doctorDAO.editDoctor(doctorVO);
+		return ls;
+	}
+	
+	@Transactional
+	public void updateDoctor(DoctorVO doctorVO) 
+	{
+		this.doctorDAO.updateDoctor(doctorVO);
 	}
 
 }

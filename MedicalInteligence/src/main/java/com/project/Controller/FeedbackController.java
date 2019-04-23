@@ -51,5 +51,10 @@ public class FeedbackController {
 		return new ModelAndView("admin/viewFeedback","feedbackList",feedbackList);
 	}
 	
-
+	@RequestMapping(value="/doctor/viewFeedback",method=RequestMethod.GET)
+	public ModelAndView viewFeedback2()
+	{
+		List feedbackList=this.feedBackService.viewFeedback();
+		return new ModelAndView("doctor/viewFeedback","feedbackList",feedbackList);
+	}
 }

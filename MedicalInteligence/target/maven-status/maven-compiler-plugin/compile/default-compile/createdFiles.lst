@@ -2,11 +2,14 @@ com\project\SpringBootHibernateApplication.class
 com\project\Controller\ChangePasswordController.class
 com\project\service\ComplainService.class
 com\project\DAO\FeedbackDAOImp.class
+com\project\DAO\ReportDAO.class
 com\project\model\XrayVO.class
+com\project\service\ReportService.class
 com\project\Controller\ReportController.class
 com\project\service\DoctorService.class
 com\project\DAO\PackageDAO.class
 com\project\HibernateConfiguration.class
+com\project\model\ReportVO.class
 com\project\DAO\XrayDAOImp.class
 com\project\service\PackageService.class
 com\project\model\ComplainVO.class
@@ -36,6 +39,7 @@ com\project\service\DatasetService.class
 com\project\DAO\FeedbackDAO.class
 com\project\Controller\FeedbackController.class
 com\project\Controller\XrayController.class
+com\project\DAO\ReportDAOImp.class
 com\project\DAO\ComplainDAO.class
 com\project\Configuration\SecurityConfiguration.class
 com\project\model\DatasetVO.class

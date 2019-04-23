@@ -6,10 +6,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Medikal - Health Care &amp; Medical HTML5 Template</title>
+<title>Medical Intelligence</title>
 <meta name="keywords" content="HTML5,CSS3,HTML,Template,Multi-Purpose,M_Adnan,Corporate Theme,Medikal,Health Care,Medikal - Health Care & Medical HTML5 Template">
-<meta name="description" content="Medikal - Health Care & Medical HTML5 Template">
-<meta name="author" content="M_Adnan">
+<meta name="description" content="Medical Intelligence">
+<meta name="author" content="MI">
 
 <!-- FONTS ONLINE -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300' rel='stylesheet' type='text/css'>
@@ -178,10 +178,10 @@ section, header{
 <!-- Page Wrap ===========================================-->
 <div id="wrap"> 
   
-  <!-- TOP BAR ===========================================-->
+  <!-- TOP BAR ===========================================
   <div class="top-bar light">
    <jsp:include page="header.jsp"></jsp:include>
-  </div>
+  </div>-->
   <!-- HEADER ===========================================-->
   
   <jsp:include page="menu.jsp"></jsp:include>
@@ -221,87 +221,12 @@ section, header{
         <a class="signup" href="#">Buy</a>         
     </div>
      </f:forEach><br/>
-    <!-- <div class="plan plan2 popular-plan">
-        <div class="header">Premium</div>
-        <div class="price">$29</div>
-        <div class="monthly">2 year</div>  
-        <ul>
-            <li><b>5GB</b> Disk Space</li>
-            <li><b>50GB</b> Monthly Bandwidth</li>
-            <li><b>10</b> Email Accounts</li>
-			<li><b>Unlimited</b> subdomains</li>			
-        </ul>
-        <a class="signup" href="#">Buy</a>            
-    </div> -->
-    <!-- <div class="plan plan3">
-        <div class="header">Standard</div>
-        <div class="price">$19</div>
-        <div class="monthly">3 year</div>
-        <ul>
-            <li><b>3GB</b> Disk Space</li>
-            <li><b>25GB</b> Monthly Bandwidth</li>
-            <li><b>5</b> Email Accounts</li>
-			<li><b>Unlimited</b> subdomains</li>			
-        </ul>
-        <a class="signup" href="#">Buy</a>        
-    </div> -->
-    <!-- <div class="plan plan4">
-        <div class="header">Basic</div>
-        <div class="price">$9</div>
-        <div class="monthly">4 year</div>
-        <ul>
-            <li><b>1GB</b> Disk Space</li>
-            <li><b>10GB</b> Monthly Bandwidth</li>
-            <li><b>2</b> Email Accounts</li>
-			<li><b>Unlimited</b> subdomains</li>			
-        </ul>
-        <a class="signup" href="#">Buy</a>        
-    </div>  -->	
 </div>
 	</header><!-- end header -->      
       </div>
     </div>
-    
-    
-        <!--======= GOOGLE MAP =========-->
-        
-    
-    <!--======= Contact Info =========-->
-    <!-- <section class="contact-info">
-      <div class="container"> 
-        
-        Address
-        <ul class="row">
-          <li class="col-md-3"> <i class="ion-ios-location-outline"></i>
-            <h5>Address</h5>
-            <p>1800 Abbot Kinney Blvd. Unit D & E
-              Venice, CA 90291</p>
-          </li>
-          
-          Hot line
-          <li class="col-md-3"> <i class="ion-iphone"></i>
-            <h5>Hotline</h5>
-            <p>+00-0122-123-0089</p>
-          </li>
-          
-          Email Contact
-          <li class="col-md-3"> <i class="ion-ios-email-outline"></i>
-            <h5>Email contact</h5>
-            <p>medikal@gmail.com</p>
-            <p> contact@medikalclinic.com</p>
-          </li>
-          
-          Website
-          <li class="col-md-3"> <i class="ion-earth"></i>
-            <h5>Website</h5>
-            <p>www.medikalclinic.com </p>
-          </li>
-        </ul>
-      </div>
-    </section> -->
-  </div>
-  </div><br>
-  <!--======= FOOTER =========-->
+    </div>
+    <!--======= FOOTER =========-->
   <jsp:include page="footer.jsp"></jsp:include>
   
 </div>

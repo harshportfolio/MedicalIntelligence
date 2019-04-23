@@ -6,10 +6,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Medikal - Health Care &amp; Medical HTML5 Template</title>
+<title>Medical Intelligence</title>
 <meta name="keywords" content="HTML5,CSS3,HTML,Template,Multi-Purpose,M_Adnan,Corporate Theme,Medikal,Health Care,Medikal - Health Care & Medical HTML5 Template">
-<meta name="description" content="Medikal - Health Care & Medical HTML5 Template">
-<meta name="author" content="M_Adnan">
+<meta name="description" content="Medical Intelligence">
+<meta name="author" content="MI">
 
 <!-- FONTS ONLINE -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300' rel='stylesheet' type='text/css'>
@@ -95,10 +95,10 @@
 <!-- Page Wrap ===========================================-->
 <div id="wrap"> 
   
-  <!-- TOP BAR ===========================================-->
+  <!-- TOP BAR ===========================================
   <div class="top-bar light">
    <jsp:include page="header.jsp"></jsp:include>
-  </div>
+  </div>-->
   <!-- HEADER ===========================================-->
   
   <jsp:include page="menu.jsp"></jsp:include>
@@ -152,42 +152,7 @@
 					</table>
            
         <!--======= GOOGLE MAP =========-->
-        
     
-    <!--======= Contact Info =========-->
-    <section class="contact-info">
-      <div class="container"> 
-        
-        <!--Address-->
-        <ul class="row">
-          <li class="col-md-3"> <i class="ion-ios-location-outline"></i>
-            <h5>Address</h5>
-            <p>1800 Abbot Kinney Blvd. Unit D & E
-              Venice, CA 90291</p>
-          </li>
-          
-          <!-- Hot line -->
-          <li class="col-md-3"> <i class="ion-iphone"></i>
-            <h5>Hotline</h5>
-            <p>+00-0122-123-0089</p>
-          </li>
-          
-          <!--Email Contact-->
-          <li class="col-md-3"> <i class="ion-ios-email-outline"></i>
-            <h5>Email contact</h5>
-            <p>medikal@gmail.com</p>
-            <p> contact@medikalclinic.com</p>
-          </li>
-          
-          <!--Website-->
-          <li class="col-md-3"> <i class="ion-earth"></i>
-            <h5>Website</h5>
-            <p>www.medikalclinic.com </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </div>
   
   <!--======= FOOTER =========-->
   <jsp:include page="footer.jsp"></jsp:include>

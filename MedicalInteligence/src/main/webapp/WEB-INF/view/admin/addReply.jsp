@@ -276,6 +276,14 @@
                         <f:textarea id="ccomment" class="form-control" path="reply" required="required"></f:textarea>
                       </div>
                       
+                       												<f:hidden path="complainId"/>
+                                                                    <f:hidden path="complaintFileName"/>
+                                                                    <f:hidden path="complaintFilePath"/>
+                                                                    <f:hidden path="loginVO.id"/>
+                                                                    <f:hidden path="status"/>
+                                                                    <f:hidden path="complaintDate"/>
+                                                                    <f:hidden path="complaintStatus"/>
+                      
                       <input class="btn btn-primary" type="submit" value="Submit">
                     </fieldset>
                   </f:form>

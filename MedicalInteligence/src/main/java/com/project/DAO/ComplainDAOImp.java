@@ -43,10 +43,10 @@ public class ComplainDAOImp implements ComplainDAO {
 	
 	public List seeComplain(ComplainVO complainVO)
 	{
-	Session session = sessionFactory.getCurrentSession();
-	
+	List  complainList =new ArrayList();	
+	Session session =this.sessionFactory.getCurrentSession();
 	Query q = session.createQuery("from ComplainVO where loginVO.id = '"+complainVO.getLoginVO().getId()+"'");
-	List complainList = q.list();
+   complainList = q.list();
 	return complainList;
    }
 }

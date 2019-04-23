@@ -254,9 +254,6 @@
 													<th>Doctor ID</th>
 													<th>Firstname</th>
 													<th>Lastname</th>
-													<th>Email</th>
-													<th>Password</th>
-													<th>Confirm Password</th>
 													<th>Gender</th>
 													<th>Educational Degree</th>
 													<th>Hospital Name</th>
@@ -271,9 +268,6 @@
 													<td>${i.doctorId}</td>
 													<td>${i.firstName}</td>
 													<td>${i.lastName}</td>
-													<td>${i.email}</td>
-													<td>${i.password}</td>
-													<td>${i.confirmPassword}</td>
 													<td>${i.gender}</td>
 													<td>${i.degree}</td>
 													<td>${i.hospitalName}</td>

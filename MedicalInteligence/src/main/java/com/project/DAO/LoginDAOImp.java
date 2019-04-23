@@ -30,6 +30,28 @@ public class LoginDAOImp implements LoginDAO {
 	public void insertLogin(LoginVO loginVO)
 	{
 		Session session=this.sessionFactory.getCurrentSession();
-		session.save(loginVO);
+		session.saveOrUpdate(loginVO);
+	}
+	
+	public List searchstep1(LoginVO loginVO)
+	{
+		List ls = new ArrayList();
+		Session session = this.sessionFactory.getCurrentSession();
+		Query q = session.createQuery("From LoginVO where username='" +loginVO.getUsername()+ "'");
+		ls = q.list();
+		return ls;
+	}
+	
+	public void updatePassword(LoginVO loginVO)
+	{
+		List ls = new ArrayList();
+		Session session = this.sessionFactory.getCurrentSession();
+		Query q = session.createQuery("UPDATE LoginVO set password='"+loginVO.getPassword() +"' where username='"+loginVO.getUsername() +"'");
+		q.executeUpdate();
+	}
+	public void updateLogin(LoginVO loginVO)
+	{
+		Session session=this.sessionFactory.getCurrentSession();
+		session.saveOrUpdate(loginVO);
 	}
 }
