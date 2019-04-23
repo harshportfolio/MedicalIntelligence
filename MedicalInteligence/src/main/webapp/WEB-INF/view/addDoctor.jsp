@@ -35,11 +35,11 @@
                     <fieldset>
                       <div class="form-group">
                         <label for="firstname">Firstname <sup><span style="color: red;">*</span></sup></label>
-                        <f:input path="firstName"  id="firstname" class="form-control" type="text" required="required"/>
+                        <f:input path="firstName"  id="firstname" class="form-control" pattern="[A-Za-z]{2,32}" title="Characters are only allowed" type="text" required="required"/>
                       </div>
                       <div class="form-group">
                         <label for="lastname">Lastname <sup><span style="color: red;">*</span></sup></label>
-                        <f:input id="lastname" path="lastName" class="form-control"  type="text" required="required"/>
+                        <f:input id="lastname" path="lastName" class="form-control"  type="text" pattern="[A-Za-z]{2,32}" title="Characters are only allowed" required="required"/>
                       </div>
                       <div class="form-group">
                         <label for="email">Email <sup><span style="color: red;">*</span></sup></label>
@@ -47,7 +47,7 @@
                       </div>
                       <div class="form-group">
                         <label for="password">Password <sup><span style="color: red;">*</span></sup></label>
-                        <f:password id="password" path="loginVO.password" class="form-control" required="required"/>
+                        <f:password id="password" path="loginVO.password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters."  required="required"/>
                       </div>
                       
                       <div class="form-group">
@@ -66,11 +66,11 @@
                       </div>
                   		<div class="form-group">
                         <label for="phone">Phone Number <sup><span style="color: red;">*</span></sup></label>
-                        <f:input path="phoneNumber" id="phoneNumber" class="form-control"  type="number" required="required"/>
+                        <f:input path="phoneNumber" id="phoneNumber" class="form-control"  type="number"  maxlength="10" pattern=".{10,}" required="required"/>
                       </div>                  		
                       <div class="form-group">
                         <label for="hospitalname">Hospital Name <sup><span style="color: red;">*</span></sup></label>
-                        <f:input id="hospitalname" path="hospitalName" class="form-control"  type="text" required="required"/>
+                        <f:input id="hospitalname" path="hospitalName" class="form-control" pattern="[a-zA-Z\s]{2,32}" title="Characters are only allowed" type="text" required="required"/>
                       </div>
                        <div class="form-group">
                         <label for="ccomment">Hospital Address (Optional)</label> 

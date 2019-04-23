@@ -67,7 +67,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8"> 
-            <h4>Upload Xray</h4>
+            <h4>Upload Knee Xray</h4>
             
             <!--======= CONTACT FORM =========-->
             <div class="contact-form"> 
@@ -80,22 +80,21 @@
               <!--======= COMPLAIN  =========-->
               <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Complain has been Submitted</div>
             <f:form  modelAttribute="xrayVO" action="insertXray"  method="post" enctype="multipart/form-data">
-             
               <ul class="row">
                 <li class="col-sm-12">
-                  <label>Patient's Name
-                    <f:input type="text" class="form-control" path="patientsName" id="name" placeholder=""/>
+                  <label>
+                    <f:input type="text" class="form-control" placeholder="Patient's Name" path="patientsName" id="name" pattern="[A-Za-z]{2,32}" title="Characters are only allowed" required="required" />
                   </label>
                 </li>
                 <li class="col-sm-12">
-                  <label>Age 
-                    <f:input type="text" class="form-control" path="age"  placeholder=""/>
+                  <label>
+                    <f:input type="number" class="form-control" path="age" pattern="[0-9]{1,3}" title="Age in numbers are only allowed" required="required" placeholder="Age" />
                   </label>
                 </li>
               
                 <li class="col-sm-12">
-                  <label>X-ray 
-                    <input type="file" class="form-control" name="file"  placeholder="">
+                  <label>
+                    <input type="file" class="form-control" name="file" title="Upload Knee X-ray Only" required="required" placeholder="X-ray">
                   </label>
                 </li>
                 

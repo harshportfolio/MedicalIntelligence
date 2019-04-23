@@ -39,9 +39,7 @@
 				<fieldset>					
 					<section>
 						<label class="input">
-							<i class="icon-append icon-user"></i>
-							<input type="email" placeholder="Enter Registered Email Address" name="username">
-							    <i class="mdi mdi-account"></i>
+							<input type="email" placeholder="Enter Registered Email Address" name="username" required="required">
 							<b class="tooltip tooltip-bottom-right">Enter Registered Email Address</b>
 						</label>
 					</section>

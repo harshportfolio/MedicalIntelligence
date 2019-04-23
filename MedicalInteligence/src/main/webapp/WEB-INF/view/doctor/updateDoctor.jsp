@@ -88,32 +88,32 @@
               <ul class="row">
                 <li class="col-sm-12">
                   <label>Firstname
-                    <f:input type="text" class="form-control" path="firstName" id="name" placeholder=""/>
+                    <f:input type="text" class="form-control" path="firstName" id="name" pattern="[A-Za-z]{2,32}" title="Characters are only allowed" required="required"/>
                   </label>
                 </li>
                 
                 <li class="col-sm-12">
                   <label>Lastname
-                    <f:input type="text" class="form-control" path="lastName"  placeholder=""/>
+                    <f:input type="text" class="form-control" path="lastName" pattern="[A-Za-z]{2,32}" title="Characters are only allowed" required="required"/>
                   </label>
                 </li>
               
                 <li class="col-sm-12">
                   <label>Email
-                    <f:input type="email" class="form-control" path="loginVO.username"  placeholder=""/>
+                    <f:input type="email" class="form-control" path="loginVO.username" required="required"/>
                   </label>
                 </li>
                 
                   <li class="col-sm-12">
                   <label>Password
-                    <f:input type="password" class="form-control" path="loginVO.password"  placeholder=""/>
+                    <f:input type="password" class="form-control" path="loginVO.password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters."  required="required" />
                   </label>
                 </li>
                 
                  <li class="col-sm-12">
                 <label for="gender">Gender <sup><span style="color: red;">*</span></sup></label>
-                <f:radiobutton path="gender" id="male" class="form-control" value="male" checked="checked" required="required"></f:radiobutton><label for="male">Male</label>
-                <f:radiobutton path="gender" id="female" class="form-control" value="female" required="required"></f:radiobutton><label for="female">Female</label>
+                <f:radiobutton path="gender" id="male"  value="male" checked="checked" required="required"></f:radiobutton><label for="male">Male</label>
+                <f:radiobutton path="gender" id="female" value="female" required="required"></f:radiobutton><label for="female">Female</label>
 				</li>              
               
              	 <label for="select">Educational Degree <sup><span style="color: red;">*</span></sup></label>
@@ -126,13 +126,13 @@
                 
                 <li class="col-sm-12">
                 <label for="phone">Phone Number <sup><span style="color: red;">*</span></sup></label>
-                        <f:input path="phoneNumber" id="phoneNumber" class="form-control"  type="number" required="required"/>
+                        <f:input path="phoneNumber" id="phoneNumber" class="form-control"  type="number"  maxlength="10" pattern=".{10,}" required="required"/>
                  </li>
                        
                 <li class="col-sm-12">
                 
                 <label for="hospitalname">Hospital Name <sup><span style="color: red;">*</span></sup></label>
-                <f:input id="hospitalname" path="hospitalName" class="form-control"  type="text" required="required"/>
+                <f:input id="hospitalname" path="hospitalName" class="form-control"  pattern="[a-zA-Z\s]{2,32}" title="Characters are only allowed" type="text" required="required"/>
                 </li>
                 
                  <li class="col-sm-12">
@@ -145,7 +145,6 @@
                  <label for="ccomment">Residential Address (Optional)</label> 
                     <f:textarea path="residentialAddress" id="ccomment" class="form-control" ></f:textarea>        
                   </li>
-                  
                         
                   <button type="submit" value="submit" class="btn" id="btn_submit">Submit</button>
                 </li>

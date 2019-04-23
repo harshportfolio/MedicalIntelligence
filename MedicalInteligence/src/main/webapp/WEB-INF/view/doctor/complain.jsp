@@ -82,19 +82,19 @@
              
               <ul class="row">
                 <li class="col-sm-12">
-                  <label>Complaint Subject 
-                    <f:input type="text" class="form-control" path="complaintSubject" id="name" placeholder=""/>
+                  <label> 
+                    <f:input type="text" class="form-control" path="complaintSubject" id="name" placeholder="Complaint Subject" required="required" />
                   </label>
                 </li>
                 <li class="col-sm-12">
-                  <label>Complaint Description 
-                    <f:input type="text" class="form-control" path="complaintDescription"  placeholder=""/>
+                  <label> 
+                    <f:input type="text" class="form-control" path="complaintDescription" placeholder="Complaint Description" required="required" />
                   </label>
                 </li>
               
                 <li class="col-sm-12">
-                  <label>File 
-                    <input type="file" class="form-control" name="file"  placeholder="">
+                  <label>
+                    <input type="file" class="form-control" name="file"  placeholder="File">
                   </label>
                 </li>
                 

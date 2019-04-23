@@ -76,8 +76,7 @@
             </div>
             
             <br>
-            <p>I treasure my client's value with a user-friendly interface. I am continually improving the effectiveness of quality through teamwork, better tools, and better technology.
-To become a prime performer, in providing quality software and to enhance the business growth of customers with creative Design and Development that gives a competitive advantage to our clients around the world.</p>
+            <p>In today's era, the Knee pain and Knee replacement surgery is the major problem of the people in the world. Many patients are unaware of the need for surgery in the absence of proper medical consultants. In this algorithm, first of all, we take an X-ray image of the patient's knee as input. After that, it will inform the patient that the knee replacement is required in his or her case.</p>
           </div>
           
           <!--======= founder sliders =========-->

@@ -145,8 +145,8 @@
              
               <ul class="row">
                 <li class="col-sm-12">
-                  <label>Feedback 
-                    <f:input type="text" class="form-control" path="feedBack" id="name" placeholder=""/>
+                  <label>
+                    <f:input type="text" class="form-control" path="feedBack" id="name" pattern="[A-Za-z]{2,32}" title="Characters are only allowed" required="required"  placeholder="Enter your response here." />
                   </label>
                 </li>
                 <li class="col-sm-12">

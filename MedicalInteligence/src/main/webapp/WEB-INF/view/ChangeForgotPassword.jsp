@@ -39,28 +39,22 @@
 				<fieldset>					
 					<section>
 						<label class="input">
-							<i class="icon-append icon-user"></i>
 							<input type="text" placeholder="Enter OTP" id="otp" name="otp">
-							    <i class="mdi mdi-account"></i>
 							<b class="tooltip tooltip-bottom-right">Enter OTP</b>
 						</label>
 					</section><span id="otpSpn"></span>
 					
 					<section>
 						<label class="input">
-							<i class="icon-append icon-user"></i>
-							<input type="password" placeholder="New Password" id="password" name="password">
+							<input type="password" placeholder="New Password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters."  required="required">
 							
-							    <i class="mdi mdi-account"></i>
 							<b class="tooltip tooltip-bottom-right">New Password</b>
 						</label>
 					</section><span id="pwdSpn"></span>
 					
 					<section>
 						<label class="input">
-							<i class="icon-append icon-user"></i>
-							<input type="password" placeholder="Confirm New Password" id="confirmpassword" name="confirmpassword">
-							    <i class="mdi mdi-account"></i>
+							<input type="password" placeholder="Confirm New Password" id="confirmpassword" name="confirmpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters."  required="required">
 							<b class="tooltip tooltip-bottom-right">Confirm New Password</b>
 						</label>
 					</section>

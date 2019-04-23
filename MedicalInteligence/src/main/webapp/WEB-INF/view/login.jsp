@@ -39,18 +39,14 @@
 				<fieldset>					
 					<section>
 						<label class="input">
-							<i class="icon-append icon-user"></i>
 							<input type="text" placeholder="Username" name="username">
-							    <i class="mdi mdi-account"></i>
 							<b class="tooltip tooltip-bottom-right">Enter your username.</b>
 						</label>
 					</section>
 					
 					<section>
 						<label class="input">
-							<i class="icon-append icon-lock"></i>
 							<input type="password" placeholder="Password" name="password">
-							      <i class="mdi mdi-eye"></i>
 							<b class="tooltip tooltip-bottom-right">Minimum 8 digits are required.</b>
 						</label>
 					</section>

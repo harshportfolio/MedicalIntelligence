@@ -117,18 +117,18 @@ function checkPwd() {
               <ul class="row">
                 <li class="col-sm-12">
                   <label>Old Password
-                    <input type="text" class="form-control" name="oldPassword" id="name" placeholder=""/>
+                    <input type="text" class="form-control" name="oldPassword" id="name" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters."  required="required" />
                   </label>
                 </li>
                 <li class="col-sm-12">
                   <label>New Password 
-                    <input type="text" class="form-control" id="newPassword" name="newPassword"  placeholder="" >
+                    <input type="text" class="form-control" id="newPassword" name="newPassword"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters."  required="required" >
                   </label>
                 </li>
               
                 <li class="col-sm-12">
                   <label>Confirm Password
-                    <input type="text" class="form-control" id="confirmPassword" name="confirmPassword"  placeholder="" onblur="checkPwd()">
+                    <input type="text" class="form-control" id="confirmPassword" name="confirmPassword"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters."  required="required" onblur="checkPwd()">
                   </label>
                 </li>
                 <li class="col-sm-12">
